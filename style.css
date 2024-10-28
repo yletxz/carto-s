@@ -11,6 +11,10 @@ body {
      
 #container {
     display: flex; /* Elementos dispostos em linha */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4rem;
+    gap: 3rem;
 }
  
    .cartao{ 
@@ -71,4 +75,30 @@ body {
 
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #4bb631;
+    color: rgb(7, 1, 1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
 }
